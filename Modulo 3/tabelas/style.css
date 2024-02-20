@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+table{
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+}

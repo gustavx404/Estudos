@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10</title>
+    <style>
+        div#area {
+            background-color: black;
+            color: white;
+            width: 90;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()">
+        Interagir...
+    </div>
+
+    <script>
+        var area = window.document.getElementById('area')
+        var back = window.document.body
+        var fundo = 'white'
+        area.innerHTML = fundo
+        function clicar() {           
+        if (fundo == 'white')
+        {
+            fundo = 'black'
+            back.style.background = 'black'
+            area.style.background = 'white'
+            area.style.color = 'black'
+            area.innerHTML = fundo
+        } 
+        else if (fundo == 'black')
+        {
+            fundo = 'white'
+            back.style.background = 'white'
+            area.style.background = 'black'
+            area.style.color = 'white'
+            area.innerHTML = fundo
+        }
+    }
+        /*
+        function entrar(){
+            back.style.background = 'black'
+            area.style.background = 'blue'
+            area.innerText = 'Entrou...'
+        }
+        function sair(){
+            back.style.background = 'black'
+            area.style.background = 'purple'
+            area.innerText = 'Saiu...'
+        }
+        */
+    </script>
+</body>
+</html>

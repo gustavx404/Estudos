@@ -1,0 +1,1 @@
+window.document.write(window.prompt('Seu Nome'))
