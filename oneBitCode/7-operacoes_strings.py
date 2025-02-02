@@ -7,3 +7,7 @@ gameVersion = " 23"
 gameFullName = gameName + gameVersion
 
 print(gameFullName)
+
+# 3 - Procura palavra dentro de um texto
+
+print ("fifa" in gameDescription)
