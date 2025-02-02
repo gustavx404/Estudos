@@ -12,3 +12,7 @@ print(gameName[0:])
 # 2 - Busque toda string ate a ultima posicao
 
 print(gameName[:5])
+
+# 3 - Busque toda string da terceira ate a ultima posicao
+
+print(gameName[2:])
