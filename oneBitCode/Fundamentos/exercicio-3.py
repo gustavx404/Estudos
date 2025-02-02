@@ -21,11 +21,9 @@ gameName = "fifa 23"
 
 primeira = gameName[0].lower()
 new_name = gameName.replace(primeira, '&')
-new_name2 = primeira + new_name [1:]
+new_name = primeira + new_name [1:]
 
-print(primeira)
 print(new_name)
-print(new_name2)
 
 st1 = 'cab'
 st2 = 'zyx'
